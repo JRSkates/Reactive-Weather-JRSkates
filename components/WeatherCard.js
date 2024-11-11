@@ -2,7 +2,7 @@ import React from "react";
 import sunny from "../assets/Sunny.svg"
 
 
-function WeatherCard() {
+function WeatherCard(props) {
   return (
     <div className = "card">
         <div className = "img-container">
@@ -18,3 +18,4 @@ function WeatherCard() {
 };
 
 // Export the WeatherCard
+module.exports = WeatherCard;
